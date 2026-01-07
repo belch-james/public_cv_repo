@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "siteTitle": "James Belch - Software Engineer",
+    "siteDescription": "Full stack engineer specializing in React, Next.js, FastAPI, and ASP.NET Core."
+  },
+  "nav": {
+    "links": {
+      "home": "Home",
+      "cv": "CV",
+      "github": "GitHub",
+      "portfolio": "Portfolio"
+    }
+  },
+  "footer": {
+    "title": "Portfolio",
+    "description": "A modern engineering journal for platform, product, and automation work.",
+    "copyright": "© {{year}} {{name}}. All rights reserved.",
+    "links": {
+      "email": "Email",
+      "github": "GitHub",
+      "website": "Website"
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": "James Belch",
+      "description": "I am experienced full stack developer, I enjoy hockey, fantasy hockey and bikes. This site is a work in progress. Please Check out my CV by clicking the link above.",
+      "cta": "Explore the CV",
+      "avatarAlt": "James Belch"
+    },
+    "typewriter": {
+      "start": "Start Typewriter",
+      "stop": "Stop Typewriter",
+      "resume": "Resume Typewriter"
+    },
+    "sections": {
+      "projects": {
+        "title": "Featured Projects",
+        "subtitle": "A small set of representative work focused on delivery, maintainability, and production awareness."
+      },
+      "caseStudy": {
+        "title": "Case Study Spotlight",
+        "subtitle": "A deeper example of how I approach ambiguous problems and turn them into reliable systems."
+      },
+      "techStack": {
+        "title": "Tech Stack",
+        "subtitle": "Tools I use regularly, plus the operating principles that keep delivery consistent."
+      },
+      "contact": {
+        "title": "Let's Talk",
+        "subtitle": "If you are hiring or sourcing a contractor, this is the fastest way to reach me."
+      }
+    }
+  },
+  "projects": {
+    "card": {
+      "outcome": "Outcome"
+    },
+    "nextCv": {
+      "title": "Next CV",
+      "description": "A modern portfolio and CV site built with Next.js, TypeScript, and MUI featuring server-side rendering, PDF generation, and a clean component architecture.",
+      "impact": "Demonstrates polished UI, maintainable code structure, and production-ready deployment patterns.",
+      "imageAlt": "Next CV portfolio site"
+    },
+    "fantasyHockey": {
+      "title": "Fantasy Hockey Companion",
+      "description": "A portfolio-grade full-stack app that integrates external APIs and presents league insights with a clean UI and structured domain models.",
+      "impact": "Improved decision speed with consolidated league views and automation-friendly data models.",
+      "imageAlt": "Fantasy Hockey Companion dashboard"
+    }
+  },
+  "caseStudy": {
+    "title": "Automation Case Study: OCR + Human-in-the-Loop",
+    "subtitle": "From inconsistent inputs to a reliable, measurable workflow",
+    "challenge": {
+      "title": "Challenge",
+      "items": {
+        "item1": "Manual document processing created bottlenecks",
+        "item2": "Error rates varied widely based on operator experience",
+        "item3": "No visibility into processing throughput or accuracy"
+      }
+    },
+    "approach": {
+      "title": "Approach",
+      "items": {
+        "item1": "Introduced OCR with structured extraction and validation rules",
+        "item2": "Built human-in-the-loop interface for exception handling",
+        "item3": "Added observability for processing metrics and error patterns"
+      }
+    },
+    "impact": {
+      "title": "Impact",
+      "items": {
+        "item1": "Reduced manual processing time by 60%",
+        "item2": "Standardized error handling and audit trails",
+        "item3": "Enabled data-driven improvements to extraction accuracy"
+      }
+    }
+  },
+  "techStack": {
+    "stack": {
+      "title": "Stack",
+      "description": "A practical toolkit aimed at shipping reliably, integrating cleanly, and maintaining long-term."
+    },
+    "howIWork": {
+      "title": "How I Work",
+      "description": "If you are hiring for a role that values maintainability, pragmatic delivery, and production awareness, we will work well together."
+    },
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "delivery": "Delivery",
+      "observability": "Observability"
+    }
+  },
+  "workingStyle": {
+    "smallPrs": "Small, reviewable PRs with clear intent and ownership",
+    "pragmaticTesting": "Pragmatic testing: confidence where it matters most",
+    "observabilityFirst": "Observability-first when systems are production-facing",
+    "maintainability": "Focus on maintainability: clean boundaries and documentation"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "If you want to discuss a role, contract, or a project idea, the fastest path is email.",
+    "social": {
+      "title": "Social",
+      "description": "Links for code, professional history, and public work."
+    }
+  },
+  "cv": {
+    "sections": {
+      "technicalSkills": "Technical Skills",
+      "technicalExperience": "Technical Experience",
+      "workExperience": "Work Experience",
+      "education": "Education"
+    },
+    "contactInfo": {
+      "emailHidden": "(email available on request)"
+    },
+    "dates": {
+      "present": "Present"
+    }
+  },
+  "labels": {
+    "email": "Email",
+    "location": "Location",
+    "website": "Website",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "actions": {
+    "viewCv": "View CV",
+    "downloadCv": "Download CV (PDF)",
+    "preparingCv": "Preparing CV...",
+    "emailMe": "Email me",
+    "caseStudy": "Case Study"
+  },
+  "errors": {
+    "turnstileNotReady": "Verification is not ready. Please try again in a moment.",
+    "downloadFailed": "Unable to download CV. Please try again.",
+    "downloadUnknown": "Something went wrong. Please try again.",
+    "turnstileTokenRequired": "Turnstile token is required.",
+    "humanVerificationFailed": "Human verification failed.",
+    "failedToGeneratePdf": "Failed to generate PDF",
+    "pdfGetUnsupported": "Use POST with a valid Turnstile token to fetch the PDF."
+  },
+  "aria": {
+    "profilePicture": "Profile picture",
+    "calendar": "Calendar",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  }
+}

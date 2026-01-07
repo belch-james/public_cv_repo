@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "siteTitle": "James Belch - Ingénieur Logiciel",
+    "siteDescription": "Ingénieur full stack spécialisé en React, Next.js, FastAPI et ASP.NET Core."
+  },
+  "nav": {
+    "links": {
+      "home": "Accueil",
+      "cv": "CV",
+      "github": "GitHub",
+      "portfolio": "Portfolio"
+    }
+  },
+  "footer": {
+    "title": "Portfolio",
+    "description": "Un journal d'ingénierie moderne pour le travail de plateforme, produit et automatisation.",
+    "copyright": "© {{year}} {{name}}. Tous droits réservés.",
+    "links": {
+      "email": "Courriel",
+      "github": "GitHub",
+      "website": "Site Web"
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": "James Belch",
+      "description": "Je suis un développeur full stack expérimenté, j'aime le hockey, le hockey fantaisie et le vélo. Ce site est en cours de développement. Veuillez consulter mon CV en cliquant sur le lien ci-dessus.",
+      "cta": "Explorer le CV",
+      "avatarAlt": "James Belch"
+    },
+    "typewriter": {
+      "start": "Démarrer la machine à écrire",
+      "stop": "Arrêter la machine à écrire",
+      "resume": "Reprendre la machine à écrire"
+    },
+    "sections": {
+      "projects": {
+        "title": "Projets en vedette",
+        "subtitle": "Un petit ensemble de travaux représentatifs axés sur la livraison, la maintenabilité et la sensibilisation à la production."
+      },
+      "caseStudy": {
+        "title": "Étude de cas en vedette",
+        "subtitle": "Un exemple approfondi de la façon dont j'aborde les problèmes ambigus et les transforme en systèmes fiables."
+      },
+      "techStack": {
+        "title": "Stack Technique",
+        "subtitle": "Les outils que j'utilise régulièrement, ainsi que les principes de fonctionnement qui assurent une livraison cohérente."
+      },
+      "contact": {
+        "title": "Parlons",
+        "subtitle": "Si vous recrutez ou cherchez un contractuel, c'est le moyen le plus rapide de me joindre."
+      }
+    }
+  },
+  "projects": {
+    "card": {
+      "outcome": "Résultat"
+    },
+    "nextCv": {
+      "title": "Next CV",
+      "description": "Un site portfolio et CV moderne construit avec Next.js, TypeScript et MUI avec rendu côté serveur, génération de PDF et une architecture de composants propre.",
+      "impact": "Démontre une interface utilisateur soignée, une structure de code maintenable et des modèles de déploiement prêts pour la production.",
+      "imageAlt": "Site portfolio Next CV"
+    },
+    "fantasyHockey": {
+      "title": "Compagnon Hockey Fantaisie",
+      "description": "Une application full-stack de qualité portfolio qui intègre des API externes et présente des informations de ligue avec une interface utilisateur propre et des modèles de domaine structurés.",
+      "impact": "Amélioration de la vitesse de décision avec des vues de ligue consolidées et des modèles de données compatibles avec l'automatisation.",
+      "imageAlt": "Tableau de bord Compagnon Hockey Fantaisie"
+    }
+  },
+  "caseStudy": {
+    "title": "Étude de cas Automatisation: OCR + Humain dans la boucle",
+    "subtitle": "Des entrées incohérentes à un flux de travail fiable et mesurable",
+    "challenge": {
+      "title": "Défi",
+      "items": {
+        "item1": "Le traitement manuel des documents créait des goulots d'étranglement",
+        "item2": "Les taux d'erreur variaient considérablement selon l'expérience de l'opérateur",
+        "item3": "Aucune visibilité sur le débit de traitement ou la précision"
+      }
+    },
+    "approach": {
+      "title": "Approche",
+      "items": {
+        "item1": "Introduction de l'OCR avec extraction structurée et règles de validation",
+        "item2": "Construction d'une interface humain-dans-la-boucle pour la gestion des exceptions",
+        "item3": "Ajout d'observabilité pour les métriques de traitement et les modèles d'erreur"
+      }
+    },
+    "impact": {
+      "title": "Impact",
+      "items": {
+        "item1": "Réduction du temps de traitement manuel de 60%",
+        "item2": "Standardisation de la gestion des erreurs et des pistes d'audit",
+        "item3": "Possibilité d'améliorations basées sur les données de la précision d'extraction"
+      }
+    }
+  },
+  "techStack": {
+    "stack": {
+      "title": "Stack",
+      "description": "Une boîte à outils pratique visant à livrer de manière fiable, à intégrer proprement et à maintenir à long terme."
+    },
+    "howIWork": {
+      "title": "Ma façon de travailler",
+      "description": "Si vous recrutez pour un rôle qui valorise la maintenabilité, la livraison pragmatique et la sensibilisation à la production, nous travaillerons bien ensemble."
+    },
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Base de données",
+      "delivery": "Livraison",
+      "observability": "Observabilité"
+    }
+  },
+  "workingStyle": {
+    "smallPrs": "Petites PRs révisables avec une intention et une propriété claires",
+    "pragmaticTesting": "Tests pragmatiques: confiance là où ça compte le plus",
+    "observabilityFirst": "Observabilité d'abord lorsque les systèmes sont en production",
+    "maintainability": "Focus sur la maintenabilité: limites claires et documentation"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Si vous souhaitez discuter d'un rôle, d'un contrat ou d'une idée de projet, le chemin le plus rapide est le courriel.",
+    "social": {
+      "title": "Social",
+      "description": "Liens pour le code, l'historique professionnel et les travaux publics."
+    }
+  },
+  "cv": {
+    "sections": {
+      "technicalSkills": "Compétences techniques",
+      "technicalExperience": "Expérience technique",
+      "workExperience": "Expérience professionnelle",
+      "education": "Éducation"
+    },
+    "contactInfo": {
+      "emailHidden": "(courriel disponible sur demande)"
+    },
+    "dates": {
+      "present": "Présent"
+    }
+  },
+  "labels": {
+    "email": "Courriel",
+    "location": "Emplacement",
+    "website": "Site Web",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "actions": {
+    "viewCv": "Voir le CV",
+    "downloadCv": "Télécharger le CV (PDF)",
+    "preparingCv": "Préparation du CV...",
+    "emailMe": "Envoyez-moi un courriel",
+    "caseStudy": "Étude de cas"
+  },
+  "errors": {
+    "turnstileNotReady": "La vérification n'est pas prête. Veuillez réessayer dans un moment.",
+    "downloadFailed": "Impossible de télécharger le CV. Veuillez réessayer.",
+    "downloadUnknown": "Quelque chose s'est mal passé. Veuillez réessayer.",
+    "turnstileTokenRequired": "Le jeton Turnstile est requis.",
+    "humanVerificationFailed": "La vérification humaine a échoué.",
+    "failedToGeneratePdf": "Échec de la génération du PDF",
+    "pdfGetUnsupported": "Utilisez POST avec un jeton Turnstile valide pour récupérer le PDF."
+  },
+  "aria": {
+    "profilePicture": "Photo de profil",
+    "calendar": "Calendrier",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation"
+  }
+}

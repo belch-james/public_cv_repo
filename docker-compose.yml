@@ -1,0 +1,39 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: next_cv_dev
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: development
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev
+
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: next_cv_test
+    working_dir: /app
+    environment:
+      NODE_ENV: test
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm test -- --runInBand
+
+  prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: next_cv_prod
+    ports:
+      - "3001:3000"
+    environment:
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: "1"
